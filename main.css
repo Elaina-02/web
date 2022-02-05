@@ -1,0 +1,79 @@
+@media screen and (prefers-reduced-motion: no-preference) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+}
+
+@font-face {
+  font-family: 'LeferiPoint-WhiteObliqueA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src:url("font/NanumSquareL.ttf");
+}
+
+@font-face {
+  font-family: 'NanumSquare';
+  src:url("font/NanumSquareL.ttf");
+}
+           
+@font-face {
+  font-family: 'Product Sans';
+  src:url("font/Product Sans Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Nanum GoDigANiGoGoDing';
+  src:url("font/nanumgoding.ttf");
+}
+
+h1 {
+  font-size: 16px;
+  font-family: 'LeferiPoint-WhiteObliqueA';
+  line-height: 30px;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+a {
+  color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  box-shadow: inset 0 -8px 0 #ff4f71; 
+  line-height: 25px;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.layer {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+}
+.layer .content {
+  display: inline-block;
+  vertical-align: middle
+}
+.layer .blank {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle
+}
