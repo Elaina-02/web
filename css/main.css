@@ -51,7 +51,7 @@ a:hover {
   box-shadow: inset 0 -8px 0 #ff4f71; 
   line-height: 25px;
   text-decoration: none;
-  color: #fff;
+  color: #000;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
