@@ -36,10 +36,10 @@ h2 {
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-family: 'LeferiPoint-WhiteObliqueA';
   line-height: 30px;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
   color: #fff;
   text-decoration: none;
   
@@ -100,7 +100,7 @@ img {
 
 @media screen and (max-width:767px) {
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     letter-spacing: 2px;
   }
 
