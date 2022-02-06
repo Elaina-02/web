@@ -36,9 +36,9 @@ h2 {
 }
 
 h2:hover {
-  box-shadow: inset 0 -8px 0 #a0a0a0; 
+  box-shadow: inset 0 -8px 0 blue; 
   text-decoration: none;
-  color: #fff;
+  color: yellow;
 }
 
 /*sub*/
@@ -48,7 +48,7 @@ h3 {
   font-family: 'LeferiPoint-WhiteObliqueA';
   line-height: 5px;
   letter-spacing: 10px;
-  color: #fff;
+  color: white;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
@@ -57,7 +57,7 @@ h3 {
 
 h3:hover {
   text-decoration: none;
-  color: #a0a0a0;
+  color: yellow;
 }
 
 /*a tag*/
