@@ -100,9 +100,17 @@ img {
 
 @media screen and (max-width:767px) {
   h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
   }
+
   h2 {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    letter-spacing: 7px;
   }
+
+  img {
+    width: 200px;
+  }
+
 }
