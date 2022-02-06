@@ -20,11 +20,7 @@
 }
 
 h1 {
-  font-size: 20px;
-  font-family: 'LeferiPoint-WhiteObliqueA';
   line-height: 30px;
-  letter-spacing: 5px;
-  color: #fff;
 }
 
 h2 {
@@ -33,6 +29,24 @@ h2 {
   line-height: 5px;
   letter-spacing: 10px;
   color: #fff;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'LeferiPoint-WhiteObliqueA';
+  line-height: 30px;
+  letter-spacing: 5px;
+  color: #fff;
+  text-decoration: none;
+  
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
 }
 
 a {
@@ -43,14 +57,21 @@ a {
 }
 
 a:hover {
-  box-shadow: inset 0 -8px 0 #ff4f71; 
-  line-height: 25px;
+  color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
   text-decoration: none;
-  color: #000;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
+}
+
+h3:hover {
+  box-shadow: inset 0 -8px 0 #fff; 
+  text-decoration: none;
+  color: #a0a0a0;
+}
+
+h2:hover {
+  text-decoration: none;
+  color: #a0a0a0;
 }
 
 .layer {
@@ -83,7 +104,7 @@ img {
   }
   h2 {
     font-size: 8px;
-    letter-spacing: 3px;
+    letter-spacing: 12px;
   }
   img {
     width: 200px;
