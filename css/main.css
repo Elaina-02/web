@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-size: 12px;
+  font-size: 1.2rem;
   font-family: 'LeferiPoint-WhiteObliqueA';
   line-height: 5px;
   letter-spacing: 10px;
@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 2.5rem;
   font-family: 'LeferiPoint-WhiteObliqueA';
   line-height: 30px;
   letter-spacing: 5px;
@@ -100,9 +100,9 @@ img {
 
 @media screen and (max-width:767px) {
   h3 {
-    font-size: 14px;
+    font-size: 2rem;
   }
   h2 {
-    font-size: 8px;
+    font-size: 0.8rem;
   }
 }
